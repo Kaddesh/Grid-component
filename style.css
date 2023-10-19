@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	background-color: hsl(204, 43%, 93%);
+	font-weight: 300;
+}
+
+
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+	color: hsl(179, 62%, 43%);
+
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 400;
+	font-weight: 400;
+}
+
+.container {
+	width: 700px;
+	height: 500px;
+	background-color: white;
+	margin: 150px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 5px;
+	overflow: hidden;
+	justify-self: center;
+}
+
+.one {
+	background-color: white;
+	width: 550px;
+	height: 180px;
+	margin-left: 50px;
+
+}
+
+#number {
+	color: hsl(71, 73%, 54%);
+	font-weight: 400;
+}
+
+#numberr {
+	color: hsl(218, 22%, 67%);
+	font-weight: 400;
+}
+
+.main {
+	display: flex;
+	margin: 0px;
+	width: 700px;
+
+}
+
+.two {
+
+	background-color: hsl(179, 62%, 43%);
+	color: beige;
+	height: 300px;
+	width: 350px;
+	font-size: 16px;
+	display: block;
+	padding: 30px;
+	line-height: 5px;
+
+}
+
+#dollar {
+	font-size: 20px;
+}
+
+#pMonth {
+	color: hsl(218, 22%, 67%);
+	font-weight: 400;
+
+}
+
+.divp {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+}
+
+.two button {
+	background-color: yellowgreen;
+	width: 90%;
+	height: 50px;
+	margin-top: 40px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	color: white;
+	border-radius: 5px;
+}
+
+.two1 {
+
+	background-color: hsl(179, 62%, 43%);
+	height: 300px;
+	width: 350px;
+	font-size: 16px;
+	padding: 30px;
+	opacity: 0.8;
+	color: white;
+
+}
+
+.grey {
+	color: hsl(204, 43%, 93%);
+	line-height: 15px;
+
+}
+
+
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+	.one {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.two {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.two1 {
+		width: 100%;
+		flex-direction: column;
+	}
+}
