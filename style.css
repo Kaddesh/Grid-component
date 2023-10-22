@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	box-sizing: border-box;
+	font-weight: 400;
+	background-color: hsl(204, 43%, 93%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 16px;
+}
+
+
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 700;
+	color: hsl(179, 62%, 43%);
+}
+
+h2 {
+	font-size: 1.56rem;
+	font-weight: 400;
+
+}
+
+.container {
+	width: 45%;
+	height: max-content;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+.sub-contain-1 {
+	background-color: white;
+	width: 80%;
+	height: 11.25rem;
+	margin-left: 2rem;
+
+}
+
+#number {
+	color: hsl(71, 73%, 54%);
+	font-weight: 400;
+}
+
+#numberr {
+	color: hsl(218, 22%, 67%);
+	font-weight: 400;
+}
+
+.sub-contain-2 {
+	display: flex;
+}
+
+.one {
+
+	background-color: hsl(179, 62%, 43%);
+	color: white;
+	width: 50%;
+	font-size: 16px;
+	padding: 2rem;
+	line-height: 0.31rem;
+
+}
+
+#dollar {
+	font-size: 1.56rem;
+}
+
+#pMonth {
+	color: hsl(218, 22%, 67%);
+	font-weight: 400;
+
+}
+
+.divp {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+
+}
+
+.one button {
+	background-color: yellowgreen;
+	font-size: 1rem;
+	width: 70%;
+	height: 3.13rem;
+	margin-top: 1rem;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	color: white;
+	border-radius: 0.31rem;
+}
+
+.two {
+
+	background-color: hsl(179, 62%, 43%);
+	width: 50%;
+	font-size: 1rem;
+	padding: 2rem;
+	opacity: 0.8;
+	color: white;
+
+
+}
+
+#two-1 {
+	color: hsl(204, 43%, 93%);
+	line-height: 2rem;
+}
+
+
+@media screen and (max-width: 700px) {
+	.container {
+		width: 90%;
+		display: grid;
+	}
+
+	.one {
+		width: 100%;
+	}
+
+	.two {
+		width: 100%;
+	}
+
+	.sub-contain-2 {
+		flex-direction: column;
+	}
+}
